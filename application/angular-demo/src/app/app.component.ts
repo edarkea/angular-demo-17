@@ -11,11 +11,7 @@ import { RouterOutlet } from '@angular/router';
 
     <router-outlet></router-outlet>
   `,
-  styles: [`
-    h1 {
-      color: red;
-    }
-  `],
+  styles: [],
 })
 export class AppComponent {
   title = 'angular-demo';

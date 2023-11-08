@@ -8,3 +8,4 @@ services:
       - "4200:4200"
     volumes:
       - ./application:/application
+#    command: tail -F anything

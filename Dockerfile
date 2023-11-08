@@ -1,7 +1,7 @@
 # Usa una imagen base de Node.js
 FROM node:18.18.2-alpine
 
-RUN npm install -g @angular/cli@17.0.0-rc.4
+RUN npm install -g @angular/cli@17
 
 # Establece el directorio de trabajo en /app
 WORKDIR /application/angular-demo
