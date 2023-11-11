@@ -10,4 +10,4 @@ WORKDIR /application/angular-demo
 EXPOSE 4200
 
 # Inicia la aplicación Angular cuando se ejecute el contenedor
-CMD ["ng", "serve","--host", "0.0.0.0"]
+CMD ["ng", "serve","--host", "0.0.0.0", "--disable-host-check"]
